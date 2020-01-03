@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>香山里小学</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script type="text/javascript" src="./js/jquery-3.4.0.js"></script>
+    <script type="text/javascript" src="./js/echarts.min.js"></script>
+</head>
+
+<body>
+    <!-- 顶部导航栏 -->
+    <div class="wrapper">
+        <!-- 顶部版心 -->
+        <div class="nav">
+            <!-- 左部logo -->
+            <div class="nav_left">
+                <img src="./images/logo.png">
+                <div>
+                    <span id="txt1">香山里小学</span><br>
+                    <span id="txt2">XiangShanli primary school</span>
+                </div>
+            </div>
+            <!-- 中间导航 -->
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">互动课堂</a></li>
+                <li><a href="#">发现</a></li>
+                <li><a href="#">大数据</a></li>
+            </ul>
+            <!-- 右边图标 -->
+            <div class="nav_right">
+                <img src="./images/01.png" id="img1">
+                <img src="./images/02.png" id="img2">
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="content">
+        <!-- 版心内容 -->
+        <div class="content1">
+            <div class="user">
+                <img id="img3" src="./images/03.png">
+                <div style="font-size: 18px">Rayong</div>
+                <img id="img4" src="./images/logo2.png">
+                <div>等级：LV1</div>
+                <div class="rank">
+                    <div class="234">234</div>
+                    <div id="blue"></div>
+                    <div id="blue2"></div>
+                    <div>445</div>
+                </div>
+            </div>
+
+            <div class="Data">
+                <div class="data">
+                    <div id="main" style="width: 238px;height:200px">
+                    </div>
+
+
+                </div>
+                <div class="data">
+                    <div id="main2" style="width: 238px;height:200px">
+                    </div>
+                </div>
+                <div class="data">
+                    <div id="main3" style="width: 238px;height:200px">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content2">
+            <div class="menber">
+                <div class="menber_nav">
+                    <div class="Name">班级</div>
+                    <span><a href="#nav_1">小学一年级(1)班</a></span>
+                    <span><a href="#nav_2">小学一年级(2)班</a></span>
+                    <span><a href="#nav_3">奥数兴趣班</a></span>
+
+                    <sapn id="creat"><img src="./images/40_03.png"> 创建班级</sapn>
+                </div>
+                <div class="menber_nav_box">
+                    <div id="nav_1">
+                        <div class="menber_nav2">
+                            <span>班级成员教学</span>
+                            <span>教学记录回答</span>
+                            <span>班级作业文件</span>
+                        </div><br>
+                        <div class="Number" id="content1">
+                            <div class="number">班级成员</div>
+                            <div class="line"></div>
+                            <div class="dot">
+                                <img src="./images/06.png">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <img class="rightImg" src="./images/07.png">
+                            </div>
+                        </div>
+                        <div class="IMG">
+                            <div id="first"><img src="./images/15.png">
+                                <span>张三</span>
+                                <span class="status">在线</span>
+                            </div>
+                            <div><img src="./images/15.png">
+                                <span>张三</span>
+                                <span class="status">在线</span>
+                            </div>
+                            <div><img src="./images/15.png">
+                                <span>张三</span>
+                                <span class="status">在线</span>
+                            </div>
+                            <div><img src="./images/15.png">
+                                <span>张三</span>
+                                <span class="status">在线</span>
+                            </div>
+                            <div><img src="./images/15.png">
+                                <span>张三</span>
+                                <span class="status">在线</span>
+                            </div>
+                            <div id="second"><img src="./images/15.png">
+                                <span>张三</span>
+                                <span class="status">在线</span>
+                            </div>
+
+
+                        </div>
+                        <div class="IMG">
+                            <div id="first"><img src="./images/16.png">
+                                <span>张三</span>
+                                <span class="status">在线</span>
+                            </div>
+                            <div><img src="./images/16.png">
+                                <span>张三</span>
+                                <span class="status">在线</span>
+                            </div>
+                            <div><img src="./images/16.png">
+                                <span>张三</span>
+                                <span class="status2">已下线</span>
+                            </div>
+                            <div><img src="./images/16.png">
+                                <span>张三</span>
+                                <span class="status2">已下线</span>
+                            </div>
+                            <div><img src="./images/16.png">
+                                <span>张三</span>
+                                <span class="status2">已下线</span>
+                            </div>
+                            <div id="second">
+                                <img src="./images/16.png">
+                                <span>张三</span>
+                                <span class="status2">已下线</span>
+                            </div>
+
+
+                        </div>
+                        <p>更多班级成员<img src="./images/35_03.png" /></p>
+
+
+                    </div>
+                    <div id="nav_2">233...</div>
+                    <div id="nav_3">699...</div>
+                </div>
+            </div>
+
+            <div class="teach">
+                <div class="Number">
+                    <div class="number">班级教学</div>
+                    <div class="line"></div>
+                    <div class="dot">
+                        <img src="./images/06.png">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <img class="rightImg" src="./images/07.png">
+                    </div>
+                </div>
+
+                <div class="teach_text">
+                    <div class="link">1个环节</div>
+                    <h2>三角形勾股定理</h2>
+                    <h3>初中三年级数学</h3>
+                    <h3>2017-5-6 发布</h3>
+                    <div class="operate" ">
+                        <img src=" ./images/08.png"> <img src="./images/09.png">
+                    </div>
+                </div>
+
+                <div class="teach_text2">
+                    <div class="link" id="link">1个环节</div>
+                    <h2>三角形勾股定理</h2>
+                    <h3>初中三年级数学</h3>
+                    <h3>2017-5-6 发布</h3>
+                    <div class="operate2" ">
+                        <img src=" ./images/08.png"> <img src="./images/09.png">
+                    </div>
+                </div>
+
+                <div class="line2"></div>
+                <p>全部排行榜<img src="./images/35_03.png" /></p>
+            </div>
+        </div>
+
+        <div class="content3">
+            <div class="content3_left">
+                <div class="content_nav">
+                    <div class="task">备课</div>
+                    <sapn class="thing"><img src="./images/40_03.png"> 创建任务单</sapn>
+                </div>
+                <div class="content_nav2">
+                    <span>我创建的任务单</span>
+                    <span>我的共享</span>
+                    <span>我收到的共享</span>
+
+                </div>
+                <div class="dot dot2">
+                    <img src="./images/06.png">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <img class="rightImg" src="./images/07.png">
+                </div>
+
+                <div class="teach_text3">
+                    <div class="link" id="link3">1个环节</div>
+                    <h2>三角形勾股定理</h2>
+                    <h3>初中三年级数学</h3>
+                    <h3>2017-5-6 发布</h3>
+                    <div class="operate3">
+                        <img src="./images/10.png">
+                        <img src="./images/11.png">
+                        <img src="./images/12.png">
+                    </div>
+                </div>
+
+                <div class="teach_text4 ">
+                    <div class="link" id="link2">1个环节</div>
+                    <h2>三角形勾股定理</h2>
+                    <h3>初中三年级数学</h3>
+                    <h3>2017-5-6 发布</h3>
+                    <div class="operate4">
+                        <img src="./images/10.png">
+                        <img src="./images/11.png">
+                        <img src="./images/12.png">
+                    </div>
+                </div>
+
+
+                <p>更多任务单<img src="./images/35_03.png" /></p>
+
+            </div>
+
+            <div class="content3_right">
+                <div class="content_nav">
+                    <div class="task">作业</div>
+                    <sapn class="thing"><img src="./images/40_03.png"> 发布新作业</sapn>
+                </div>
+                <div class="content_nav2">
+                    <span>待我批阅的作业</span>
+                    <span>已批阅的作业</span>
+                    <span>待发布的作业</span>
+
+                </div>
+                <div class="dot dot2">
+                    <img src="./images/06.png">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <img class="rightImg" src="./images/07.png">
+                </div>
+                <div class="wrokimg">
+                    <img src="./images/60_03.png">
+
+                </div>
+                <div class="homework">
+                    <img src="./images/75.png">
+                    <div class="homework_text">
+                        <div>2017年5月2日小学一年级数学作业</div>
+                        <span class="yellow">6</span><span>/</span>
+                        <span>2</span><span>/</span>
+                        <span>2</span>
+                    </div>
+                    <div class="homework_text2">
+                        <div>距离作业截止还有12分22秒</div>
+                        <span>未查看</span><span>/</span>
+                        <span>未提交</span><span>/</span>
+                        <span>待批阅</span>
+
+                    </div>
+                </div>
+
+                <div class="homework">
+                    <img src="./images/75.png">
+                    <div class="homework_text">
+                        <div>2017年5月2日小学一年级数学作业</div>
+                        <span class="yellow">6</span><span>/</span>
+                        <span>2</span><span>/</span>
+                        <span>2</span>
+                    </div>
+                    <div class="homework_text2">
+                        <div>距离作业截止还有12分22秒</div>
+                        <span>未查看</span><span>/</span>
+                        <span>未提交</span><span>/</span>
+                        <span>待批阅</span>
+
+                    </div>
+                </div>
+
+                <div class="homework">
+                    <img src="./images/75.png">
+                    <div class="homework_text">
+                        <div>2017年5月2日小学一年级数学作业</div>
+                        <span class="yellow">6</span><span>/</span>
+                        <span>2</span><span>/</span>
+                        <span>2</span>
+                    </div>
+                    <div class="homework_text2">
+                        <div>距离作业截止还有12分22秒</div>
+                        <span>未查看</span><span>/</span>
+                        <span>未提交</span><span>/</span>
+                        <span>待批阅</span>
+
+                    </div>
+                </div>
+
+
+                <p>更多作业<img src="./images/35_03.png" /></p>
+            </div>
+        </div>
+
+        <div class="content4">
+            <div class="content4_left">
+                <div class="content_nav">
+                    <div class="task">问答</div>
+                    <sapn class="thing"><img src="./images/40_03.png"> 我要提问</sapn>
+                </div>
+                <div class="content_nav2">
+                    <span>待我回答的问题</span>
+                    <span>我回答的问题</span>
+                    <span>我提问的问题</span>
+
+                </div>
+                <div class="dot dot2">
+                    <img src="./images/06.png">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <img class="rightImg" src="./images/07.png">
+                </div>
+
+                <div class="people">
+                    <img src="./images/18.png">
+                    <div class="people_time">
+                        <div>孙倩</div>
+                        <div>今天18：00</div>
+                    </div>
+                </div>
+
+                <div class="people_text">
+                    <div>老师我最近老师睡不好，老师梦到你怎么办？梦到你惩罚我写字不好，都精神衰弱了</div>
+
+                </div>
+                <img src="./images/50_03.png">
+                <div class="people_message">
+                    <span>回答(12)</span>
+                    <span id="orange">未采纳</span>
+
+                </div>
+                <p>更多回答<img src="./images/35_03.png" /></p>
+            </div>
+
+            <div class="content4_right">
+                <div class="content_nav">
+                    <div class="task">题库</div>
+                    <span><a href="#nav2_1">错题库</a></span>
+                    <span><a href="#nav2_2">知识点统计</a></span>
+                    <sapn class="thing">个人题库</sapn>
+                </div>
+
+                <div class="content_nav_box">
+                    <div id="nav2_1">
+                        <div class="content_nav2">
+                            <span>语文</span>
+                            <span>数学</span>
+
+
+                        </div>
+                        <div class="dot dot2">
+                            <img src="./images/06.png">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <img class="rightImg" src="./images/07.png">
+                        </div>
+
+                        <div class="error">
+                            <div id="main4" style="width: 587px;height:300px">
+                            </div>
+
+                        </div>
+
+                        <p>进入题库<img src="./images/35_03.png" /></p>
+                    </div>
+                    <div id="nav2_2">23333..</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content5">
+            <div class="menber2">
+                <div class="menber2_nav">
+                    <div class="Name">课程</div>
+                    <span><a href="#nav3_1">微课</a></span>
+                    <span><a href="#nav3_2">慕课</a></span>
+
+                    <sapn class="thing"><img src="./images/40_03.png"> 创建微课</sapn>
+                </div>
+
+                <div class="menber2_nav_box">
+                    <div id="nav3_1">
+                        <div class="content_nav2 content5_nav">
+                            <span>我创建的课程</span>
+                            <span>我的共享的微课</span>
+                            <span>我收到的微课</span>
+                            <span>我发布的微课</span>
+                            <span>发给我的微课</span>
+                            <span>我收藏的微课</span>
+                            <div class="dot dot2 dot3">
+                                <img src="./images/06.png">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <img class="rightImg" src="./images/07.png">
+                            </div>
+                        </div>
+
+                        <div class="pictrue">
+                            <div class="pictrue_1"><img src="images/24.png">
+                                <div class="pictrue_11">
+                                    <div class="pictrue_11_box">
+                                        <h2>34个</h2>
+                                        <h4>累计共有微课</h4>
+                                    </div>
+                                    <div class="pictrue_11_box">
+                                        <h2>34小时22分钟</h2>
+                                        <h4>累计被学习时长</h4>
+                                    </div>
+                                    <div class="pictrue_11_txt">查看全部统计</div>
+                                </div>
+                            </div>
+                            <div class="pictrue_2"><img src="images/22.png">
+                                <div class="pictrue_22">
+                                    <span><a href="javascript:">全体成员可见</a> </span>
+                                    <span><a href="javascript:">微课编辑</a> </span>
+                                    <span><a href="javascript:">发布</a> </span>
+                                    <span><a href="javascript:">共享微课</a> </span>
+                                    <span><a href="javascript:">学习数据统计</a> </span>
+                                    <div><a href="javascript:">删除</a></div>
+                                    <div><a href="javascript:">下载</a></div>
+                                    <div><a href="javascript:">预览</a></div>
+                                </div>
+                            </div>
+                            <div class="pictrue_3"><img src="images/23.png">
+                                <div class="pictrue_33">
+                                    <span><a href="javascript:">全体成员可见</a> </span>
+                                    <span><a href="javascript:">微课编辑</a> </span>
+                                    <span><a href="javascript:">发布</a> </span>
+                                    <span><a href="javascript:">共享微课</a> </span>
+                                    <span><a href="javascript:">学习数据统计</a> </span>
+                                    <div><a href="javascript:">删除</a></div>
+                                    <div><a href="javascript:">下载</a></div>
+                                    <div><a href="javascript:">预览</a></div>
+                                </div>
+                            </div>
+                            <div class="pictrue_4"><img src="images/22.png">
+                                <div class="pictrue_44">
+                                    <span><a href="javascript:">全体成员可见</a> </span>
+                                    <span><a href="javascript:">微课编辑</a> </span>
+                                    <span><a href="javascript:">发布</a> </span>
+                                    <span><a href="javascript:">共享微课</a> </span>
+                                    <span><a href="javascript:">学习数据统计</a> </span>
+                                    <div><a href="javascript:">删除</a></div>
+                                    <div><a href="javascript:">下载</a></div>
+                                    <div><a href="javascript:">预览</a></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <p>进入课程库<img src="./images/35_03.png" /></p>
+                    </div>
+                    <div id="nav3_2">233333...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="end">
+            ©2017知慧教育科技有限公司
+        </div>
+
+        <div class="right">
+            <div class="right_top">
+                <img src="./images/05.png">
+            </div>
+            <div class="right_bottom">
+                <img src="./images/04.png">
+            </div>
+
+        </div>
+
+        <div class="back">
+            <input type="button" value="点击上滑" id="but">
+        </div>
+
+
+
+        <script type="text/javascript" src="./js/index.js"></script>
+    </div>
+</body>
+
+
+</html>
